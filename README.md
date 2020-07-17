@@ -1,2 +1,2 @@
 # Coding-Small-Projects-
-Here I'll upload my small coding Boring Games. 
+Here I'll upload Random Problem Solve. Fell free to share your opinion.
