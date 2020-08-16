@@ -1,0 +1,41 @@
+# Saon Sikder
+# Dhaka, Bangladesh
+
+import java.util.Scanner;
+
+public class LightOnOff {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String check;
+		boolean light_on = false;
+		while (true) {
+
+			System.out.print("--  ");
+			check = scanner.next();
+
+			if (check.equalsIgnoreCase("On")) {
+				if (light_on) {
+					System.out.println("Light is already in On Mode");
+				} else {
+					System.out.println("Light On, Done");
+					light_on = true;
+				}
+			} else if (check.equalsIgnoreCase("Off")) {
+				if (!light_on) {
+					System.out.println("Light is already in OFF Mode");
+				} else {
+					System.out.println("Light Off, Done");
+					light_on = false;
+				}
+			} else if (check.equalsIgnoreCase("quit")) {
+				System.out.println("Thanks for Programming");
+				break;
+			} else {
+				System.out.println("Invalid Command.....");
+			}
+		}
+
+	}
+
+}
