@@ -3,6 +3,8 @@
 # 28 July 2020
 # Dhaka,Bangladesh
 # Python3
+# Watch this video to use this program nicely: https://www.linkedin.com/posts/saon-sikder_pythonprogramming-activity-6693743246700634112-Qf-7
+
 
 def womens_dress():
     print("""                   Women's Collections
